@@ -21,6 +21,7 @@ import { SubredditSideBarComponent } from './shared/subreddit-side-bar/subreddit
 import { CreateSubredditComponent } from './subreddit/create-subreddit/create-subreddit.component';
 import { CreatePostComponent } from './post/create-post/create-post.component';
 import { ListSubredditsComponent } from './subreddit/list-subreddits/list-subreddits.component';
+import { EditorModule } from '@tinymce/tinymce-angular';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { ListSubredditsComponent } from './subreddit/list-subreddits/list-subred
     NgxWebstorageModule.forRoot(),
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    EditorModule
    
   ],
   providers: [],
