@@ -61,6 +61,9 @@ export class AuthService {
   getRefreshToken() {
     return this.localStorage.retrieve('refreshToken');
   }
+  isLoggedIn(): boolean{
+    return this.getJwtToken() !=null;
+  }
 
   logout() {
 
