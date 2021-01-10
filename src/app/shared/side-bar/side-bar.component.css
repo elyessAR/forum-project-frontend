@@ -1,8 +1,8 @@
 .sidebar{
     width: 312px;
     height: 242px;
-    --post-line-color: #ccc;    
-    border: 1px solid #ccc;
+    --post-line-color: #f54943;    
+    border: 1px solid #f54943;
     margin-bottom: 10px;
     overflow: hidden;
     background-color: rgba(255,255,255,0.8);
@@ -14,9 +14,10 @@
     margin-bottom: 10px;
 }
 
-.btnCreatePost, .btnCreateSubreddit{
-    background-color: #0079D3;
-    border-color: #0079D3;
+.btnCreatePost, .btnCreateForum{
+    margin-top:30px;
+    background-color: #f54943;
+    border-color:#f54943;
     color: aliceblue;
     fill: #0079D3;
     border: 1px solid;
@@ -35,9 +36,9 @@
     height: 34px;
 }
 
-.btnCreateSubreddit{
+.btnCreateForum{
     margin-top: 5px;
-    color: #0079D3;
+    color: #f54943;
     background-color: transparent;
 }
 
